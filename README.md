@@ -25,7 +25,7 @@ npm run build
 Add the server to your Claude Code configuration:
 
 ```bash
-claude mcp add ebird -e EBIRD_API_KEY=your_api_key_here -- node /Users/matthewegan/Documents/Code/ebird-mcp/dist/index.js
+claude mcp add ebird -e EBIRD_API_KEY=your_api_key_here -- node /Users/youruser/ebird-mcp/dist/index.js
 ```
 
 Or manually add to your Claude Code settings (`.claude/settings.json`):
@@ -35,7 +35,7 @@ Or manually add to your Claude Code settings (`.claude/settings.json`):
   "mcpServers": {
     "ebird": {
       "command": "node",
-      "args": ["/Users/matthewegan/Documents/Code/ebird-mcp/dist/index.js"],
+      "args": ["/Users/youruser/ebird-mcp/dist/index.js"],
       "env": {
         "EBIRD_API_KEY": "your_api_key_here"
       }
