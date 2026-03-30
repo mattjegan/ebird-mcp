@@ -4,6 +4,10 @@
   "description": "MCP server for eBird API 2.0",
   "type": "module",
   "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./tools": "./dist/tools.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js"
